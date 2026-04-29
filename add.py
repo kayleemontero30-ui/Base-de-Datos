@@ -22,6 +22,6 @@ while True:
     conexion.commit()
 
     print(f"{nombre} ha sido agregado a la base de datos.")
-    continuar = input("¿Quieres agregar otro usuario? (s/n): ")
-    if continuar.lower() != 's':
+    continuar = input("¿Quieres agregar otro usuario? (si/no): ")
+    if continuar.lower() != 'si':
         break
